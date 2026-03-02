@@ -1,0 +1,112 @@
+// Generated for: spectre
+// Generated on: Mar  2 13:55:04 2026
+// Design library name: SRAM6T
+// Design cell name: sram_8x8_puf
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/home/work/gpdk045_v_5_0/gpdk045/../models/spectre/gpdk045.scs" section=mc
+
+// Library name: SRAM6T
+// Cell name: sram6t
+// View name: schematic
+subckt sram6t BL BLB GND VDD WL
+    NM4 (net15 WL BLB BLB) g45n1svt w=(120n) l=45n nf=1 as=16.8f ad=16.8f \
+        ps=520n pd=520n nrd=1.16667 nrs=1.16667 sa=140n sb=140n sd=160n \
+        sca=226.00151 scb=0.11734 scc=0.02767 m=(1)
+    NM3 (net19 WL BL BL) g45n1svt w=(120n) l=45n nf=1 as=16.8f ad=16.8f \
+        ps=520n pd=520n nrd=1.16667 nrs=1.16667 sa=140n sb=140n sd=160n \
+        sca=226.00151 scb=0.11734 scc=0.02767 m=(1)
+    NM2 (net19 net15 GND GND) g45n1svt w=(120n) l=45n nf=1 as=16.8f \
+        ad=16.8f ps=520n pd=520n nrd=1.16667 nrs=1.16667 sa=140n sb=140n \
+        sd=160n sca=226.00151 scb=0.11734 scc=0.02767 m=(1)
+    NM0 (net15 net19 GND GND) g45n1svt w=(120n) l=45n nf=1 as=16.8f \
+        ad=16.8f ps=520n pd=520n nrd=1.16667 nrs=1.16667 sa=140n sb=140n \
+        sd=160n sca=226.00151 scb=0.11734 scc=0.02767 m=(1)
+    PM1 (net19 net15 VDD VDD) g45p1svt w=(120n) l=45n nf=1 as=16.8f \
+        ad=16.8f ps=520n pd=520n nrd=1.16667 nrs=1.16667 sa=140n sb=140n \
+        sd=160n sca=226.00151 scb=0.11734 scc=0.02767 m=(1)
+    PM0 (net15 net19 VDD VDD) g45p1svt w=(120n) l=45n nf=1 as=16.8f \
+        ad=16.8f ps=520n pd=520n nrd=1.16667 nrs=1.16667 sa=140n sb=140n \
+        sd=160n sca=226.00151 scb=0.11734 scc=0.02767 m=(1)
+ends sram6t
+// End of subcircuit definition.
+
+// Library name: SRAM6T
+// Cell name: sram_8x8_puf
+// View name: schematic
+I67 (net31 net30 0 net159 0) sram6t
+I66 (net33 net32 0 net159 0) sram6t
+I65 (net35 net34 0 net159 0) sram6t
+I64 (net37 net36 0 net159 0) sram6t
+I63 (net39 net38 0 net159 0) sram6t
+I62 (net41 net40 0 net159 0) sram6t
+I59 (net43 net42 0 net159 0) sram6t
+I58 (net45 net44 0 net159 0) sram6t
+I57 (net47 net46 0 net159 0) sram6t
+I56 (net49 net48 0 net159 0) sram6t
+I55 (net51 net50 0 net159 0) sram6t
+I54 (net53 net52 0 net159 0) sram6t
+I53 (net55 net54 0 net159 0) sram6t
+I52 (net57 net56 0 net159 0) sram6t
+I51 (net59 net58 0 net159 0) sram6t
+I50 (net61 net60 0 net159 0) sram6t
+I49 (net63 net62 0 net159 0) sram6t
+I48 (net65 net64 0 net159 0) sram6t
+I47 (net67 net66 0 net159 0) sram6t
+I46 (net69 net68 0 net159 0) sram6t
+I45 (net71 net70 0 net159 0) sram6t
+I44 (net73 net72 0 net159 0) sram6t
+I43 (net75 net74 0 net159 0) sram6t
+I42 (net77 net76 0 net159 0) sram6t
+I41 (net79 net78 0 net159 0) sram6t
+I40 (net81 net80 0 net159 0) sram6t
+I39 (net83 net82 0 net159 0) sram6t
+I38 (net85 net84 0 net159 0) sram6t
+I37 (net87 net86 0 net159 0) sram6t
+I36 (net89 net88 0 net159 0) sram6t
+I35 (net91 net90 0 net159 0) sram6t
+I34 (net93 net92 0 net159 0) sram6t
+I33 (net95 net94 0 net159 0) sram6t
+I32 (net97 net96 0 net159 0) sram6t
+I31 (net99 net98 0 net159 0) sram6t
+I30 (net101 net100 0 net159 0) sram6t
+I29 (net103 net102 0 net159 0) sram6t
+I28 (net105 net104 0 net159 0) sram6t
+I27 (net107 net106 0 net159 0) sram6t
+I26 (net109 net108 0 net159 0) sram6t
+I25 (net111 net110 0 net159 0) sram6t
+I24 (net113 net112 0 net159 0) sram6t
+I23 (net115 net114 0 net159 0) sram6t
+I22 (net117 net116 0 net159 0) sram6t
+I21 (net119 net118 0 net159 0) sram6t
+I20 (net121 net120 0 net159 0) sram6t
+I19 (net123 net122 0 net159 0) sram6t
+I18 (net125 net124 0 net159 0) sram6t
+I17 (net127 net126 0 net159 0) sram6t
+I16 (net129 net128 0 net159 0) sram6t
+I15 (net131 net130 0 net159 0) sram6t
+I14 (net133 net132 0 net159 0) sram6t
+I13 (net135 net134 0 net159 0) sram6t
+I12 (net137 net136 0 net159 0) sram6t
+I10 (net139 net138 0 net159 0) sram6t
+I9 (net141 net140 0 net159 0) sram6t
+I8 (net144 net143 0 net159 0) sram6t
+I7 (net146 net145 0 net159 0) sram6t
+I6 (net149 net148 0 net159 0) sram6t
+I5 (net152 net151 0 net159 0) sram6t
+I4 (net155 net154 0 net159 0) sram6t
+I3 (net158 net157 0 net159 0) sram6t
+I2 (net161 net160 0 net159 0) sram6t
+I1 (net164 net163 0 net159 0) sram6t
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub
